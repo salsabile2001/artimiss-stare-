@@ -1,0 +1,224 @@
+/*index.html*/
+ *{
+margin: 0;
+padding: 0;
+}
+.back{
+   height: 120vh;
+   background-image: url(1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+    	background-image: url(2.png);
+    	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    }
+50%{
+    	background-image: url(3.png);
+    	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    }
+75%{
+    	background-image: url(2.png);
+    	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    }
+100%{
+    	background-image: url(1.png);
+    	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    }
+ }
+.titl{
+color: #CD6155;
+font-style: italic;
+font-family: tahoma;
+text-align: center;
+font-size: 25px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.menux{
+position: fixed;
+right: -250px;
+width:150px;
+height: 100%;
+background: #D98880;
+transition: all .6s ease;}
+.menux header{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  background: #F1948A;
+  user-select: none;}
+.menux ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 40px;
+  font-size:16px;
+  color: white;
+  padding-left:30px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255,1);
+  border-bottom: 2px solid white;
+  transition: 1s;
+}
+.menux ul li:hover a{
+	padding-left: 45px;	}
+.menux ul a i{
+	margin-right:5px;}
+#check{
+display: none;}
+label #btn,label #cancel{
+	position: absolute;
+	cursor: pointer;}
+label #btn{
+	left: 90%;
+	top:60px;
+	font-size: 40px;
+	color:#CD6155;
+	padding: 6px 12px;
+    transition: all .5s;}
+label #cancel{
+   z-index: 1111;
+right:-12%;
+top:90px;
+font-size: 20px;
+color:white;
+transition: all .5s ease;
+}
+
+
+#check:checked ~ .menux{
+	right:0;}
+#check:checked ~ label #btn{
+	right:250px;
+	opacity: 0;
+	pointer-events: none;}
+#check:checked ~ label #cancel{
+	right:12%;	}
+/*index1.html*/
+ .foto{
+  background-image:url(back.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;   }
+.fotoo{
+text-align: center;}
+ ul li h2{
+	border: 2px solid white;
+	color: black;}
+.dada{
+	text-align: center;
+	color: white;}
+
+ ul li  h2:hover{
+color: red;}
+/*index2.html*/
+h1{
+	color:#CD6155 ;
+    text-align: center; }
+.back1{
+	background-image:url(back.jpg);
+  height: 120vh;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;  } 
+.welcom{
+	font-size: 25px;}
+.text{
+text-align: center;
+padding-top: 40px;}
+.guide{
+	padding-top:40px;
+	padding-left:200px;
+	font-size: 17px; }
+.bbb{
+	float: right;
+	padding-top: 50px;
+	padding-right : 20px;
+	font-size: 20px;
+  color:black;}
+.bbb a h3:hover{
+  color:#CD6155;}
+/*index3.html*/
+.back3{
+	background-image:url(back.jpg);
+  height: 500vh;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;   }
+/*index4.html*/
+.back4{
+		background-image:url(back.jpg);
+  height: 600vh;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+/*index5.html*/
+.back5{
+	background-image:url(back.jpg);
+  height:600vh;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;}
+/*foter*/
+.footer {
+   background-color:#CD6155 ;
+     line-height: 25px;
+      padding-left:180px; 
+      height: 350px;
+      padding-top:30px;}
+     .footer ul a {
+    color:black;
+    font-size :20px;  }
+  .footer ul li a:hover{
+color:#F1948A;  }   
+  .bide{ 
+float:right;
+padding-right :300px;
+padding-top: 2px;
+
+
+  }  
+  .titl1 {
+font-style: italic;
+font-family: tahoma;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top:2px;
+padding-left: 180px;
+
+}
+ .titl1 a{
+  color:black;
+ } 
+.titl1 a:hover{
+  color:#F1948A;
+}  
+.chaek{
+  font-style: italic;
+font-family: tahoma;
+font-size: 20px;
+text-align: center;
+} 
+
